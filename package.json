@@ -1,0 +1,14 @@
+{
+  "name": "business-studies-websites",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:year11": "npm run dev -w year11-site",
+    "dev:year12": "npm run dev -w year12-site",
+    "build": "npm run build -w year11-site && npm run build -w year12-site",
+    "lint": "npm run lint -w year11-site && npm run lint -w year12-site"
+  }
+}
