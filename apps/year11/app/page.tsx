@@ -19,7 +19,7 @@ export default async function HomePage() {
 
   return (
     <SiteLayout {...siteConfig}>
-      <SectionHeading title="Y11 Business Studies" subtitle="Miss H — Preliminary course hub" />
+      <SectionHeading title="Y11 Business Studies" subtitle="Preliminary course hub" />
 
       <ReadingSection title="How to use this website">
         <p className="mb-4 text-slate-700">
