@@ -78,9 +78,9 @@ export async function LessonView({ title, subtitle, content, meta }: LessonViewP
         </ul>
       ) : null}
 
-      <article className="prose prose-slate mt-4 max-w-none rounded-2xl border border-slate-200 bg-white p-6 prose-headings:text-slate-900 prose-p:leading-7">
+      <div className="lesson-content mt-4 space-y-2">
         <MDXRemote source={content} components={mdxComponents} />
-      </article>
+      </div>
 
       {siblings.length > 0 && crumbs.length > 0 ? (
         <aside className="mt-8">
