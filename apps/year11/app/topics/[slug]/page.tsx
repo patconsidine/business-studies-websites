@@ -17,7 +17,16 @@ export default async function TopicPage({ params }: { params: Promise<Params> })
     const topic = await getTopicBySlug(slug);
     return (
       <SiteLayout {...siteConfig}>
-        <SectionHeading title={topic.meta.title} subtitle={`${topic.meta.term} • Updated ${topic.meta.updated}`} />
+        <SectionHeading
+          title={topic.meta.title}
+          subtitle={[
+            topic.meta.term,
+            topic.meta.indicativeTime,
+            `Updated ${topic.meta.updated}`
+          ]
+            .filter(Boolean)
+            .join(" • ")}
+        />
         <Callout title="Syllabus Outcomes">
           <ul className="ml-4 list-disc">
             {topic.meta.outcomes.map((outcome) => (

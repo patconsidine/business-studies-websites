@@ -10,19 +10,19 @@ type Question = {
 
 const questions: Question[] = [
   {
-    prompt: "What is the best definition of a business objective?",
-    options: [
-      "A list of student classroom rules",
-      "A measurable target the business aims to achieve",
-      "A summary of the logo and color palette",
-      "A government tax notice"
-    ],
+    prompt: "Which legal structure is most associated with shares traded on the ASX?",
+    options: ["Sole trader", "Partnership", "Public company", "Franchise only"],
+    answer: 2
+  },
+  {
+    prompt: "Which management approach emphasises teams and participative leadership?",
+    options: ["Classical", "Behavioural", "Break-even", "Liquidation"],
     answer: 1
   },
   {
-    prompt: "Which management skill is most linked to motivating teams?",
-    options: ["Interpersonal", "Numeracy", "Typing speed", "Warehouse layout"],
-    answer: 0
+    prompt: "Break-even analysis is most closely linked to which Preliminary topic?",
+    options: ["Nature of business only", "Business planning", "HSC Operations", "Corporate liquidation"],
+    answer: 1
   }
 ];
 

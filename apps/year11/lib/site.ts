@@ -1,6 +1,6 @@
 export const siteConfig = {
   title: "Year 11 Business Studies",
-  subtitle: "NSW syllabus-aligned learning hub",
+  subtitle: "NSW Preliminary course — Nature of business, Business management, Business planning",
   yearLabel: "Year 11",
   navItems: [
     { href: "/", label: "Home" },

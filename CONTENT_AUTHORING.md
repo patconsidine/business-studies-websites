@@ -1,5 +1,24 @@
 # Content Authoring Guide
 
+## NESA course structure (reference)
+
+**Preliminary (Year 11)** — 120 indicative hours:
+
+1. Nature of business (20%)
+2. Business management (40%)
+3. Business planning (40%)
+
+**HSC (Year 12)** — 120 indicative hours:
+
+1. Operations (25%)
+2. Marketing (25%)
+3. Finance (25%)
+4. Human resources (25%)
+
+Topic order in class is **not prescriptive** in the syllabus; use `order` in frontmatter to control display sequence on the site.
+
+---
+
 Each topic page is authored as an MDX file in:
 
 - `apps/year11/content/topics`
@@ -12,7 +31,9 @@ Every topic file must include:
 ```md
 ---
 title: "Topic title"
-term: "Term 1"
+term: "Preliminary Topic 1"
+order: 1
+indicativeTime: "20% (~24 hours)"
 outcomes:
   - "Syllabus outcome 1"
   - "Syllabus outcome 2"

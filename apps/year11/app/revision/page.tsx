@@ -5,17 +5,17 @@ export default function RevisionPage() {
   return (
     <SiteLayout {...siteConfig}>
       <SectionHeading
-        title="Revision Hub"
-        subtitle="Use short, active revision cycles instead of passive rereading."
+        title="Preliminary Revision Hub"
+        subtitle="Revise by NESA topic: Nature of business (20%), Business management (40%), Business planning (40%)."
       />
       <div className="grid gap-4 md:grid-cols-3">
-        <ContentCard title="Retrieval Grid" description="Spend 10 minutes recalling key terms and examples without notes." />
-        <ContentCard title="Case Study Sprint" description="Summarize one case in 5 bullet points and one strategy recommendation." />
-        <ContentCard title="Exam Tips" description="Focus on command words and include business examples in every paragraph." />
+        <ContentCard title="Outcomes P1–P10" description="Match practice answers to Preliminary outcomes (e.g. P4 = interdependence of business functions)." />
+        <ContentCard title="Case Study Sprint" description="One Australian + one global business: life cycle stage, stakeholders, one external influence each." />
+        <ContentCard title="Business Plan Check" description="Rehearse plan sections: vision, forecasting, break-even, monitoring and competitive advantage." />
       </div>
       <div className="mt-6">
         <Callout title="Weekly Revision Routine">
-          Monday: retrieval quiz. Wednesday: case study summary. Friday: timed paragraph response.
+          Monday: key terms (legal structures, life cycle). Wednesday: management approaches + functions. Friday: business plan section draft or short answer.
         </Callout>
       </div>
     </SiteLayout>

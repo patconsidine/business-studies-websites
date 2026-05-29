@@ -6,6 +6,8 @@ export type TopicMeta = {
   slug: string;
   title: string;
   term: string;
+  order?: number;
+  indicativeTime?: string;
   outcomes: string[];
   difficulty: "foundation" | "core" | "extension";
   updated: string;
@@ -27,7 +29,7 @@ export async function getAllTopicMeta(): Promise<TopicMeta[]> {
       })
   );
 
-  return topics.sort((a, b) => a.term.localeCompare(b.term));
+  return topics.sort((a, b) => (a.order ?? 99) - (b.order ?? 99) || a.title.localeCompare(b.title));
 }
 
 export async function getTopicBySlug(slug: string) {

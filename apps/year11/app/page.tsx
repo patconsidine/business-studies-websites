@@ -13,8 +13,8 @@ export default async function HomePage() {
       <section className="grid gap-8 lg:grid-cols-[2fr,1fr]">
         <div>
           <SectionHeading
-            title="Term Learning Pathway"
-            subtitle="Navigate each topic with summary notes, examples and syllabus outcomes."
+            title="Preliminary Course Topics"
+            subtitle="Three NESA topics (~120 indicative hours). Topic order in class may vary."
           />
           <div className="grid gap-4 md:grid-cols-2">
             {topics.slice(0, 3).map((topic) => (
