@@ -4,9 +4,27 @@
 
 :root {
   color-scheme: light;
+  /* Study section palette (reading / workbook / activity) */
+  --section-reading-bg: #f0fdfa;
+  --section-reading-border: #99f6e4;
+  --section-reading-accent: #14b8a6;
+  --section-workbook-bg: #fffbeb;
+  --section-workbook-border: #fcd34d;
+  --section-workbook-accent: #f59e0b;
+  --section-activity-bg: #f5f3ff;
+  --section-activity-border: #c4b5fd;
+  --section-activity-accent: #8b5cf6;
 }
 
 body {
   margin: 0;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.prose h2 {
+  margin-top: 1.75rem;
+}
+
+.prose h3 {
+  margin-top: 1.25rem;
 }

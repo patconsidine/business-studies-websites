@@ -17,12 +17,29 @@
 
 Topic order in class is **not prescriptive** in the syllabus; use `order` in frontmatter to control display sequence on the site.
 
+### Study section colours (Year 11 site)
+
+| Component | Colour | Purpose |
+|-----------|--------|---------|
+| `<ReadingSection>` | Teal | Read and self-directed summarising |
+| `<WorkbookSection>` | Amber | Key terms / syllabus points to copy into workbook |
+| `<ActivitySection>` | Violet | Class or homework tasks |
+
+Example in MDX:
+
+```mdx
+<ReadingSection title="Introduction">...</ReadingSection>
+<WorkbookSection title="Definitions">...</WorkbookSection>
+<ActivitySection title="Case study task">...</ActivitySection>
+```
+
 ---
 
-Each topic page is authored as an MDX file in:
 
-- `apps/year11/content/topics`
-- `apps/year12/content/topics`
+Each lesson page is authored as an MDX file in:
+
+- `apps/year11/content/pages/` (mirrors Google Site URLs, e.g. `nature-of-business.mdx`, `business-management/management-approaches.mdx`)
+- `apps/year12/content/topics/` (HSC topics — to be migrated similarly)
 
 ## Frontmatter convention
 

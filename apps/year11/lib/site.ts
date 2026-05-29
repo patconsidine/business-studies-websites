@@ -1,11 +1,14 @@
 export const siteConfig = {
   title: "Year 11 Business Studies",
-  subtitle: "NSW Preliminary course — Nature of business, Business management, Business planning",
+  subtitle: "Miss H — NSW Preliminary course",
   yearLabel: "Year 11",
   navItems: [
     { href: "/", label: "Home" },
-    { href: "/revision", label: "Revision Hub" },
-    { href: "/assessment-prep", label: "Assessment Prep" },
+    { href: "/nature-of-business", label: "Nature of Business" },
+    { href: "/business-management", label: "Business Management" },
+    { href: "/business-planning", label: "Business Planning" },
+    { href: "/exam-preparation", label: "Exam Prep" },
+    { href: "/revision", label: "Revision" },
     { href: "/resources", label: "Resources" }
   ]
 };
