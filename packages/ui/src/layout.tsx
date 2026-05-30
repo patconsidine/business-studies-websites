@@ -38,7 +38,7 @@ export function SiteLayout({ title, subtitle, yearLabel, navItems, children }: L
       <footer className="border-t border-slate-200 bg-white">
         <div className="mx-auto flex w-full max-w-6xl flex-col gap-1 px-4 py-6 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
           <p>Built for NSW Business Studies students.</p>
-          <p>Site build: 2026-05-29</p>
+          <p>Site build: 2026-05-30</p>
         </div>
       </footer>
     </div>

@@ -1,7 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
 import matter from "gray-matter";
-import { formatLessonContent } from "./format-lesson-content";
 
 export type PageMeta = {
   slug: string;
@@ -70,7 +69,7 @@ export async function getPageBySlugParts(slugParts: string[]) {
   const fileParts = slugPath === "home" ? ["home"] : slugPath.split("/");
 
   return {
-    content: formatLessonContent(content),
+    content,
     meta: toMeta(fileParts, data as Record<string, unknown>)
   };
 }

@@ -1,12 +1,17 @@
 import {
   ActivitySection,
   Callout,
+  LessonImage,
   ReadingSection,
-  WorkbookSection
+  WorkbookSection,
+  YouTubeEmbed
 } from "@ui/index";
+
 export const mdxComponents = {
   ReadingSection,
   WorkbookSection,
   ActivitySection,
-  Callout
+  Callout,
+  YouTubeEmbed,
+  LessonImage
 };
