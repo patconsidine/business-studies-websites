@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" role="img" aria-label="Marketing mix four Ps">
+  <rect width="520" height="280" fill="#f8fafc" rx="12"/>
+  <text x="260" y="36" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#1e293b">Marketing Mix - 4 Ps</text>
+  <rect x="30" y="70" width="210" height="80" rx="12" fill="#eef2ff" stroke="#818cf8" stroke-width="2"/>
+  <text x="135" y="102" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#3730a3">Product</text>
+  <text x="135" y="122" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#4f46e5">Features, brand, packaging</text>
+  <rect x="280" y="70" width="210" height="80" rx="12" fill="#ecfdf5" stroke="#34d399" stroke-width="2"/>
+  <text x="385" y="102" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#065f46">Price</text>
+  <text x="385" y="122" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#047857">Cost-based, market, prestige</text>
+  <rect x="30" y="170" width="210" height="80" rx="12" fill="#fffbeb" stroke="#fbbf24" stroke-width="2"/>
+  <text x="135" y="202" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#92400e">Promotion</text>
+  <text x="135" y="222" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#b45309">Ads, social media, publicity</text>
+  <rect x="280" y="170" width="210" height="80" rx="12" fill="#f5f3ff" stroke="#a78bfa" stroke-width="2"/>
+  <text x="385" y="202" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#5b21b6">Place</text>
+  <text x="385" y="222" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#7c3aed">Distribution, outlets, logistics</text>
+</svg>
