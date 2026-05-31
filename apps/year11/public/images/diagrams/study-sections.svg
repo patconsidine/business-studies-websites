@@ -3,13 +3,13 @@
   <rect x="24" y="40" width="180" height="120" rx="16" fill="#f0fdfa" stroke="#99f6e4" stroke-width="2"/>
   <circle cx="48" cy="64" r="8" fill="#14b8a6"/>
   <text x="64" y="68" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#042f2e">Read &amp; summarise</text>
-  <text x="40" y="100" font-family="system-ui,sans-serif" font-size="12" fill="#134e4a">Teal  reading notes</text>
+  <text x="40" y="100" font-family="system-ui,sans-serif" font-size="12" fill="#134e4a">Teal - reading notes</text>
   <rect x="230" y="40" width="180" height="120" rx="16" fill="#fffbeb" stroke="#fde68a" stroke-width="2"/>
   <circle cx="254" cy="64" r="8" fill="#f59e0b"/>
   <text x="270" y="68" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#451a03">Workbook</text>
-  <text x="246" y="100" font-family="system-ui,sans-serif" font-size="12" fill="#78350f">Amber  key terms</text>
+  <text x="246" y="100" font-family="system-ui,sans-serif" font-size="12" fill="#78350f">Amber - key terms</text>
   <rect x="436" y="40" width="180" height="120" rx="16" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="2"/>
   <circle cx="460" cy="64" r="8" fill="#8b5cf6"/>
   <text x="476" y="68" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#2e1065">Activity</text>
-  <text x="452" y="100" font-family="system-ui,sans-serif" font-size="12" fill="#4c1d95">Violet  class tasks</text>
+  <text x="452" y="100" font-family="system-ui,sans-serif" font-size="12" fill="#4c1d95">Violet - class tasks</text>
 </svg>
