@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="POLC management functions cycle">
+  <rect width="400" height="400" fill="#f8fafc" rx="12"/>
+  <circle cx="200" cy="200" r="130" fill="none" stroke="#c7d2fe" stroke-width="3" stroke-dasharray="10 6"/>
+  <defs>
+    <marker id="polc-arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#6366f1"/>
+    </marker>
+  </defs>
+  <path d="M 200 70 A 130 130 0 0 1 313 200" fill="none" stroke="#6366f1" stroke-width="2" marker-end="url(#polc-arrow)"/>
+  <path d="M 313 200 A 130 130 0 0 1 200 313" fill="none" stroke="#6366f1" stroke-width="2" marker-end="url(#polc-arrow)"/>
+  <path d="M 200 313 A 130 130 0 0 1 87 200" fill="none" stroke="#6366f1" stroke-width="2" marker-end="url(#polc-arrow)"/>
+  <path d="M 87 200 A 130 130 0 0 1 200 70" fill="none" stroke="#6366f1" stroke-width="2" marker-end="url(#polc-arrow)"/>
+  <circle cx="200" cy="78" r="36" fill="#eef2ff" stroke="#818cf8" stroke-width="2"/>
+  <text x="200" y="74" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#3730a3">Planning</text>
+  <text x="200" y="90" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#4f46e5">Goals &amp; actions</text>
+  <circle cx="308" cy="200" r="36" fill="#ecfdf5" stroke="#34d399" stroke-width="2"/>
+  <text x="308" y="196" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#065f46">Organising</text>
+  <text x="308" y="212" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#047857">Structure</text>
+  <circle cx="200" cy="322" r="36" fill="#fffbeb" stroke="#fbbf24" stroke-width="2"/>
+  <text x="200" y="318" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#92400e">Leading</text>
+  <text x="200" y="334" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#b45309">Motivate</text>
+  <circle cx="92" cy="200" r="36" fill="#f5f3ff" stroke="#a78bfa" stroke-width="2"/>
+  <text x="92" y="196" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#5b21b6">Controlling</text>
+  <text x="92" y="212" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#7c3aed">Monitor</text>
+  <text x="200" y="200" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#334155">POLC</text>
+</svg>

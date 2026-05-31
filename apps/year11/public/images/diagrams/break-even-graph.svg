@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" role="img" aria-label="Break-even analysis graph">
+  <rect width="560" height="400" fill="#f8fafc" rx="12"/>
+  <text x="280" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#1e293b">Break-even analysis</text>
+  <line x1="70" y1="320" x2="500" y2="320" stroke="#64748b" stroke-width="2"/>
+  <line x1="70" y1="320" x2="70" y2="60" stroke="#64748b" stroke-width="2"/>
+  <text x="285" y="350" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#475569">Quantity / Sales ($)</text>
+  <text x="28" y="190" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#475569" transform="rotate(-90 28 190)">Cost / Revenue ($)</text>
+  <line x1="70" y1="240" x2="500" y2="240" stroke="#94a3b8" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="505" y="244" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">FC</text>
+  <line x1="70" y1="320" x2="500" y2="120" stroke="#f59e0b" stroke-width="3"/>
+  <text x="505" y="115" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#b45309">TC</text>
+  <line x1="70" y1="320" x2="500" y2="80" stroke="#14b8a6" stroke-width="3"/>
+  <text x="505" y="75" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#0f766e">TR</text>
+  <circle cx="290" cy="200" r="7" fill="#6366f1"/>
+  <line x1="290" y1="200" x2="290" y2="320" stroke="#6366f1" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="290" y="338" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#4338ca">Break-even</text>
+  <text x="360" y="155" font-family="system-ui,sans-serif" font-size="11" fill="#059669">Profit zone</text>
+  <text x="140" y="280" font-family="system-ui,sans-serif" font-size="11" fill="#dc2626">Loss zone</text>
+</svg>

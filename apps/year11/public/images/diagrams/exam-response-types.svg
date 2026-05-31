@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" role="img" aria-label="Exam response types">
+  <rect width="640" height="200" fill="#f8fafc" rx="12"/>
+  <rect x="20" y="40" width="135" height="120" rx="12" fill="#eef2ff" stroke="#a5b4fc" stroke-width="2"/>
+  <text x="87" y="78" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#4338ca">MC</text>
+  <text x="87" y="100" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#6366f1">Multiple choice</text>
+  <text x="87" y="118" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">~1 mark</text>
+  <rect x="175" y="40" width="135" height="120" rx="12" fill="#f0fdfa" stroke="#5eead4" stroke-width="2"/>
+  <text x="242" y="78" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#0f766e">SA</text>
+  <text x="242" y="100" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#14b8a6">Short answer</text>
+  <text x="242" y="118" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">36 marks</text>
+  <rect x="330" y="40" width="135" height="120" rx="12" fill="#fffbeb" stroke="#fcd34d" stroke-width="2"/>
+  <text x="397" y="78" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#b45309">ER</text>
+  <text x="397" y="100" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#d97706">Extended response</text>
+  <text x="397" y="118" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">820 marks</text>
+  <rect x="485" y="40" width="135" height="120" rx="12" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="2"/>
+  <text x="552" y="78" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#6d28d9">RPT</text>
+  <text x="552" y="100" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#7c3aed">Business report</text>
+  <text x="552" y="118" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">Plan format</text>
+</svg>

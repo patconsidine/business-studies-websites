@@ -1,6 +1,7 @@
 import Link from "next/link";
 import {
   ContentCard,
+  LessonImage,
   ReadingSection,
   SectionHeading,
   SiteLayout,
@@ -26,6 +27,12 @@ export default async function HomePage() {
           Each lesson uses three colour-coded section types. The colours are chosen for readability on screen — not
           the old Google Sites white, grey and blue blocks.
         </p>
+        <LessonImage
+          src="/images/diagrams/study-sections.svg"
+          alt="Diagram showing teal Read and summarise, amber Workbook, and violet Activity section types"
+          caption="Three section types used across every lesson"
+          variant="diagram"
+        />
         <StudySectionLegend />
       </ReadingSection>
 

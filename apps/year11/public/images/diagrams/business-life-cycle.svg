@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-label="Business life cycle stages">
+  <rect width="720" height="220" fill="#f8fafc" rx="12"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#6366f1"/>
+    </marker>
+  </defs>
+  <line x1="100" y1="110" x2="620" y2="110" stroke="#6366f1" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="40" y="60" width="120" height="72" rx="12" fill="#eef2ff" stroke="#a5b4fc" stroke-width="2"/>
+  <text x="100" y="92" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#312e81">Establishment</text>
+  <text x="100" y="112" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#4338ca">Start-up</text>
+  <rect x="190" y="60" width="120" height="72" rx="12" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="2"/>
+  <text x="250" y="92" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#064e3b">Growth</text>
+  <text x="250" y="112" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#047857">Expand sales</text>
+  <rect x="340" y="60" width="120" height="72" rx="12" fill="#fffbeb" stroke="#fcd34d" stroke-width="2"/>
+  <text x="400" y="92" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#78350f">Maturity</text>
+  <text x="400" y="112" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#b45309">Peak market</text>
+  <rect x="490" y="48" width="200" height="96" rx="12" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="2"/>
+  <text x="590" y="82" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#4c1d95">Post-maturity</text>
+  <text x="590" y="102" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#6d28d9">Renewal · Steady · Decline</text>
+  <text x="360" y="190" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">Business life cycle  Preliminary Business Studies</text>
+</svg>
